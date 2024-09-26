@@ -27,9 +27,8 @@ body {
 }
 
 #grid {
-    border: 2px solid red;
-    width: 962px; /* two extra for border */
-    height: 962px;
+    width: 960px; /* two extra for border */
+    height: 960px;
     display: flex;
     flex-flow: row  wrap;
 
@@ -37,4 +36,8 @@ body {
 
 .hovered {
     background-color: black;
+}
+
+.square {
+    border: 1px solid green;
 }
