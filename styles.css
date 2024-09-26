@@ -1,0 +1,40 @@
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    border: 2px solid red;
+    width: 962px; /* two extra for border */
+    height: 962px;
+    display: flex;
+    flex-flow: row  wrap;
+
+}
+
+.hovered {
+    background-color: black;
+}
